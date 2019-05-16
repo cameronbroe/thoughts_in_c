@@ -4,3 +4,5 @@ project(thoughts_in_c C)
 set(CMAKE_C_STANDARD 99)
 
 include(fast_rgba_to_bgra/CMakeLists.txt)
+include(usbmuxd_list/CMakeLists.txt)
+include(usbmuxd_monitor/CMakeLists.txt)
